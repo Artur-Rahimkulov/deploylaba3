@@ -62,8 +62,8 @@
   /* clip-path: rectangle(100px at 0px 0px); */
   position: absolute;
   animation: heartbeat 2s infinite;
-  z-index: 1;
-  /* z-index: 0; */
+  /* z-index: 1; */
+  z-index: 0;
 }
 .bgimage {
   background-image:  url('../public/Animals-Heart.png');
@@ -75,7 +75,7 @@
   display: flex;
   position: absolute;
   animation: heartbeat 2s infinite;
-  /* z-index: 1; */
+  z-index: 1;
 }
 @font-face {
   font-family: arturs;
